@@ -1,6 +1,7 @@
 {
     "name": "codeq/logintheme",
     "description": "A simple Code Q theme for the login screen.",
+    "type": "neos-package",
     "require": {
         "typo3/flow": "*"
     },
