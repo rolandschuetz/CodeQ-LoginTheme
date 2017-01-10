@@ -37,6 +37,10 @@ $isStudioQProject : 'no';	// values: yes / no
 	 font-weight: bold;
 }
 
+body {
+	background-image: url('/_Resources/Static/Packages/CodeQ.LoginTheme/img/Background.jpg');
+}
+
 .neos .neos-login-box {
 	overflow: visible !important;
 }

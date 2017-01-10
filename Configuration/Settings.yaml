@@ -2,6 +2,5 @@ Neos:
   Neos:
     userInterface:
       backendLoginForm:
-        backgroundImage: 'resource://CodeQ.LoginTheme/Public/img/Background.jpg'
         stylesheets:
           'CodeQ.LoginTheme:LoginStyles': 'resource://CodeQ.LoginTheme/Public/css/LoginScreen.css'
