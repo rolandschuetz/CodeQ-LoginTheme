@@ -1,0 +1,17 @@
+{
+    "name": "codeq/logintheme",
+    "description": "A simple Code Q theme for the login screen.",
+    "require": {
+        "typo3/flow": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "CodeQ\\LoginTheme\\": "Classes/"
+        }
+    },
+    "extra": {
+        "neos": {
+            "package-key": "CodeQ.LoginTheme"
+        }
+    }
+}
