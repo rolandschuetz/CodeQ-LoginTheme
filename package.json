@@ -1,0 +1,17 @@
+{
+  "name": "CodeQ.LoginTheme",
+  "description": "Styles",
+  "version": "1.0.0",
+  "private": true,
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-load-plugins": "1.0.0-rc.1",
+    "gulp-plumber": "1.0.1",
+    "gulp-sass": "2.0.4",
+    "gulp-autoprefixer": "2.3.*",
+    "gulp-size": "1.2.3",
+    "gulp-csso": "1.0.0",
+    "gulp-if": "1.2.5",
+    "node-sass": "^3.10.1"
+  }
+}
