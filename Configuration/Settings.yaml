@@ -3,4 +3,4 @@ Neos:
     userInterface:
       backendLoginForm:
         stylesheets:
-          'CodeQ.LoginTheme:LoginStyles': 'resource://CodeQ.LoginTheme/Public/css/LoginScreen.css'
+          'CodeQ.LoginTheme:Styles': 'resource://CodeQ.LoginTheme/Public/css/neos-login-studio-q.css'
