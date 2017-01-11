@@ -95,6 +95,7 @@ body {
 		font-family: Cambria, Georgia, serif !important;
 		font-style: italic !important;
 		vertical-align: baseline !important;
+		line-height: 1; // necessary in safari for the password placeholder
 		&::-webkit-input-placeholder{
 			color: #7bbd8f !important;
 		}
