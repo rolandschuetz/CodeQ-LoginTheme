@@ -3,7 +3,7 @@
     "description": "A simple Code Q theme for the login screen.",
     "type": "neos-package",
     "require": {
-        "typo3/neos": "*"
+        "typo3/neos": "^3.0"
     },
     "autoload": {
         "psr-4": {
