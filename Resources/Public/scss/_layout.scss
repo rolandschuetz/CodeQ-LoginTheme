@@ -116,6 +116,8 @@ body {
 		color: black !important;
 		letter-spacing: 1px !important;
 		transition-duration: .3s !important;
+		border-radius: 0;
+
 		&:hover {
 			background: #4fa068 !important;
 		}
