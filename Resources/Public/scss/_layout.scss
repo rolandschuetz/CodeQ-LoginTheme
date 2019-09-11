@@ -13,7 +13,12 @@
 }
 
 body {
-	background-image: url('/_Resources/Static/Packages/CodeQ.LoginTheme/img/Background.jpg') !important;
+	@if $layout-type == 'studio-q' {
+		background-image: url('/_Resources/Static/Packages/CodeQ.LoginTheme/img/SQ_Background.jpg') !important;
+	}
+	@if $layout-type == 'code-q' {
+		background-image: url('/_Resources/Static/Packages/CodeQ.LoginTheme/img/adi-goldstein-EUsVwEOsblE-unsplash.jpg') !important;
+	}
 }
 
 .neos .neos-login-box {
@@ -31,28 +36,32 @@ body {
 		display: none !important;
 	}
 
-	header {
-		color: black !important;
-		font-family: QBackslash !important;
-		text-transform: uppercase !important;
-		font-weight: bold !important;
-		text-align:left !important;
-		font-size: 12px !important;
+	header, // Neos 3.x
+	.neos-login-heading { // Neos 4.x
+		// hide "Neos Login"
+		font-size: 0 !important;
+		text-align: left !important;
 		margin-bottom: 10px !important;
-		letter-spacing: 1px !important;
+
+		strong,
+		&:before {
+			color: black !important;
+			font-family: 'QBackslash' !important;
+			text-transform: uppercase !important;
+			font-weight: bold !important;
+			font-size: 12px !important;
+			letter-spacing: 1px !important;
+		}
 
 		&:before {
-			content: "\005C\005C" !important;
-			letter-spacing: -3px !important;
-			font-family: 'QBackslash' !important;
-			font-weight: bold !important;
-			margin-right: 2px !important;
+			content: "/ Login: " !important;
 		}
 	}
 }
 
 .neos-login-box-logo {
-	margin: 15px 0 35px 0 !important;
+	margin: 15px 0 32px 0 !important;
+
 	img {
 		display: none !important;
 	}
@@ -68,14 +77,14 @@ body {
 			height: 75px;
 			content: '';
 		}
-		@if $layout-type == 'codeq-q' {
-			background-image: url('/_Resources/Static/Packages/CodeQ.LoginTheme/img/Q_LOGO_NEOS.png');
-			background-size: 95px auto;
+		@if $layout-type == 'code-q' {
+			background-image: url('/_Resources/Static/Packages/CodeQ.LoginTheme/img/CQ_LOGO_NEOS.png');
+			background-size: auto 100%;
 			background-repeat: no-repeat;
 			background-position: center;
 			display: inline-block;
 			width: 100%;
-			height: 100px;
+			height: 57px;
 			content: '';
 		}
 	}
