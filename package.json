@@ -12,6 +12,6 @@
     "gulp-size": "1.2.3",
     "gulp-csso": "1.0.0",
     "gulp-if": "1.2.5",
-    "node-sass": "^3.10.1"
+    "node-sass": "^4.13.1"
   }
 }
